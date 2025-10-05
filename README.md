@@ -43,7 +43,8 @@ Variational Autoencoders (VAEs) are generative models that learn a probabilistic
 │
 ├── docs/
 │   ├── VLAE.pdf                             # Project report (compiled)
-│   └── Chen et al                           # Source paper 
+│   └── Chen et al. 						 # Source paper
+		Variational Lossy Autoencoder.pdf    
 ```
 
 ## Installation
