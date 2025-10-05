@@ -28,21 +28,22 @@ Variational Autoencoders (VAEs) are generative models that learn a probabilistic
 ```text
 .
 ├── code/
-│   ├── vlae_mnist_conditional_prior.py   # Main VLAE implementation
-│   └── VLAE.tex                          # LaTeX source for report/paper
-│
+│   └── vlae_mnist_conditional_prior.py      # Main VLAE implementation
+│	└── VLAE.tex 							 # LaTeX source for report/paper
 ├── data/
-│   ├── train-images-idx3-ubyte(.gz)      # MNIST training images
-│   ├── train-labels-idx1-ubyte(.gz)      # MNIST training labels
-│   ├── t10k-images-idx3-ubyte(.gz)       # MNIST test images
-│   └── t10k-labels-idx1-ubyte(.gz)       # MNIST test labels
+│   ├── train-images-idx3-ubyte(.gz)         # MNIST training images
+│   ├── train-labels-idx1-ubyte(.gz)         # MNIST training labels
+│   ├── t10k-images-idx3-ubyte(.gz)          # MNIST test images
+│   └── t10k-labels-idx1-ubyte(.gz)          # MNIST test labels
 │
 ├── result/
-│   ├── sample_conditioned_epoch*.png     # Generated samples per epoch
-│   ├── test_recon_epoch*.png             # Reconstructions per epoch
-│   └── vlae_condprior_epoch*.pt          # Model checkpoints
+│   ├── sample_conditioned_epoch*.png        # Generated samples per epoch
+│   ├── test_recon_epoch*.png                # Reconstructions per epoch
+│   └── vlae_condprior_epoch*.pt             # Model checkpoints
 │
-└── VLAE.pdf                              # Project report (compiled)
+├── docs/
+│   ├── VLAE.pdf                             # Project report (compiled)
+│   └── Chen et al                           # Source paper 
 ```
 
 ## Installation
